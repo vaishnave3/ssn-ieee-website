@@ -1,0 +1,4 @@
+.detailsApp {
+    display: grid;
+    grid-template-columns: 10px 10px;
+}

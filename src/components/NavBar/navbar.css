@@ -1,0 +1,53 @@
+.brand-img {
+    width: 150px;
+    height: 40px;
+}
+
+.navbar {
+    margin-top: 4rem;
+    background: transparent;
+    display: flex;
+    /* background-color: black; */
+}
+
+.images {
+    display: flex;
+    margin-left: 2rem;
+}
+
+.brand-img-ssn {
+    width: 80px;
+    height: 40px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 70rem;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 4px;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1024px) {
+    .links {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 0.5rem;
+        font-size: x-small;
+    }
+}
+
+.btn1 {
+    background-color: transparent;
+    color: var(--color-primary);
+}
